@@ -11,7 +11,7 @@
 * 2019-09-22 0.2版（印刷書籍）  
 技術書典7 にて領布。
 
-## ■ 訂正
+## ■ 正誤情報
 
 ### 【0.2版】
 
@@ -73,8 +73,10 @@ $$ language sql;
   https://book.mynavi.jp/ec/products/detail/id=28392
   * 『ビッグデータ分析・活用のためのSQLレシピ』　加嵜長門、田宮直人 著、マイナビ  
   https://book.mynavi.jp/ec/products/detail/id=65863
-  * 『前処理大全［データ分析のためのSQL/R/Python実践テクニック］』本橋智光 著、株式会社ホクソエム　監修、技術評論社  
-  https://gihyo.jp/book/2018/978-4-7741-9647-3
+  * 『前処理大全［データ分析のためのSQL/R/Python実践テクニック］』　本橋智光 著、株式会社ホクソエム　監修、技術評論社  
+  https://gihyo.jp/book/2018/978-4-7741-9647-3  
+  * 『10年戦えるデータ分析入門　SQLを武器にデータ活用時代を生き抜く』　青木峰郎 著、SB Creative  
+  https://www.sbcr.jp/product/4797376272/
   * 宮沢賢治 オツベルと象 青空文庫  
   https://www.aozora.gr.jp/cards/000081/files/466_42316.html
 
