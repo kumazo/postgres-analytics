@@ -54,15 +54,16 @@ $$ language sql;
   https://www.postgresql.jp/document/11/html/index.html
   * PostgreSQL: Documentation: 12: PostgreSQL 12beta4 Documentation  
   https://www.postgresql.org/docs/12/index.html
-  * ISO IEC TR 19075   
-  SQL Technical Report. Part 6: SQL support for JavaScript Object Notation (JSON)  
-  http://standards.iso.org/ittf/PubliclyAvailableStandards/c067367_ISO_IEC_TR_19075-6_2017.zip
   * 国民の祝日について - 内閣府  
   https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html?PHPSESSID=013ef321a0aea2e19e3937010efdf4e3
   * URL Standard （日本語訳）   
   https://triple-underscore.github.io/URL-ja.html
   * RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax  
   https://tools.ietf.org/html/rfc3986
+  * ISO IEC TR 19075   
+  SQL Technical Report. Part 6: SQL support for JavaScript Object Notation (JSON)  
+  http://standards.iso.org/ittf/PubliclyAvailableStandards/c067367_ISO_IEC_TR_19075-6_2017.zip
+
 * **【書籍】**
   * 『データサイエンスのための統計学入門 ――予測、分類、統計モデリング、統計的機械学習とRプログラミング』 Peter Bruce、Andrew Bruce 著、黒川 利明　訳、大橋 真也　技術監修、O'Reilly Japan, Inc.  
   https://www.oreilly.co.jp/books/9784873118284/
@@ -74,26 +75,48 @@ $$ language sql;
   https://book.mynavi.jp/ec/products/detail/id=65863
   * 『前処理大全［データ分析のためのSQL/R/Python実践テクニック］』本橋智光 著、株式会社ホクソエム　監修、技術評論社  
   https://gihyo.jp/book/2018/978-4-7741-9647-3
+  * 宮沢賢治 オツベルと象 青空文庫  
+  https://www.aozora.gr.jp/cards/000081/files/466_42316.html
 
 * **【参考】**
-  * Mersenne Twister: A random number generator (since 1997/10)   
-  http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html
-  * Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート  
-  https://blog.visvirial.com/articles/575
-  * パレート分布 - Wikipedia  
-  https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AC%E3%83%BC%E3%83%88%E5%88%86%E5%B8%83
-  * 逆関数法 - Wikipedia  
-  https://ja.wikipedia.org/wiki/%E9%80%86%E9%96%A2%E6%95%B0%E6%B3%95
-  * ボックス＝ミュラー法 - Wikipedia  
-  https://ja.wikipedia.org/wiki/%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%9D%E3%83%9F%E3%83%A5%E3%83%A9%E3%83%BC%E6%B3%95
-  * 国民の祝日 - Wikipedia  
-  https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5
-  * 春分・秋分点通過日時の計算 真木のホームページ  
-  http://park12.wakwak.com/~maki/equinox21.htm
-  * PostgreSQL 9.5のTABLESAMPLE句 - Qiita  
-  https://qiita.com/sawada_masahiko/items/80ec96f3c19e8fcf3b23
+  * 『篠田の虎の巻』第10弾 公開！PostgreSQL 11 の正式版に対応！ - Hewlett Packard Enterprise Community  
+  https://community.hpe.com/t5/Enterprise-Topics/%E7%AF%A0%E7%94%B0%E3%81%AE%E8%99%8E%E3%81%AE%E5%B7%BB-%E7%AC%AC10%E5%BC%BE-%E5%85%AC%E9%96%8B-PostgreSQL-11-%E3%81%AE%E6%AD%A3%E5%BC%8F%E7%89%88%E3%81%AB%E5%AF%BE%E5%BF%9C/ba-p/7023249?profile.language=ja#.XYag-yj7S1v
+  * 本の虫: うっかりチューリング完全になっちゃったもの  
+  https://cpplover.blogspot.com/2013/10/blog-post_20.html
   * Linuxコマンドをfile_fdwの入力として使う。 - Qiita  
   https://qiita.com/nuko_yokohama/items/1044020576d3f5affb53
+  * 国民の祝日 - Wikipedia  
+  https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5
+  * 国民の祝日に関する法律 - Wikipedia  
+  https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B
+  * 春分・秋分点通過日時の計算 真木のホームページ  
+  http://park12.wakwak.com/~maki/equinox21.htm
+  * 暦Wiki/季節/季節のめぐりの周期 - 国立天文台暦計算室   
+  https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FB5A8C0E1A4CEA4E1A4B0A4EAA4CEBCFEB4FC.html
+  * Mersenne Twister: A random number generator (since 1997/10)   
+  http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html
+  * あなたの使っている乱数、大丈夫？ 松本 眞 - 広島大学  
+  http://www.math.sci.hiroshima-u.ac.jp/~m-mat/TEACH/ichimura-sho-koen.pdf
+  * Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート  
+  https://blog.visvirial.com/articles/575
+  * ボックス＝ミュラー法 - Wikipedia  
+  https://ja.wikipedia.org/wiki/%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%9D%E3%83%9F%E3%83%A5%E3%83%A9%E3%83%BC%E6%B3%95
+  * 乱数にコクを出す方法について - Togetter  
+  https://togetter.com/li/1044668
+  * 逆関数法 - Wikipedia  
+  https://ja.wikipedia.org/wiki/%E9%80%86%E9%96%A2%E6%95%B0%E6%B3%95
+  * パレート分布 - Wikipedia  
+  https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AC%E3%83%BC%E3%83%88%E5%88%86%E5%B8%83
+  * Identity columns - Qiita  
+  https://qiita.com/nuko_yokohama/items/7d0d5525bcefaa3332ce
+  * PostgreSQL 9.5のTABLESAMPLE句 - Qiita  
+  https://qiita.com/sawada_masahiko/items/80ec96f3c19e8fcf3b23
+  * oknj/textsearch_ja: 形態素解析を使用した日本語全文検索の、PostgreSQL組み込み型モジュール。   
+  https://github.com/oknj/textsearch_ja
+  * TABLESAMPLE Implementation - PostgreSQL wiki   
+  https://wiki.postgresql.org/wiki/TABLESAMPLE_Implementation
+  * PostgreSQL: Re: Expression to construct a anonymous record with named columns?   
+  https://www.postgresql.org/message-id/CAHyXU0xHDZO6%3D0XjEEK-sQL-4Gbp2Gh-f-LZieZFdGEw%3DzWJnA%40mail.gmail.com
 
 
 
