@@ -59,6 +59,10 @@ $$ language sql;
   http://standards.iso.org/ittf/PubliclyAvailableStandards/c067367_ISO_IEC_TR_19075-6_2017.zip
   * 国民の祝日について - 内閣府  
   https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html?PHPSESSID=013ef321a0aea2e19e3937010efdf4e3
+  * URL Standard （日本語訳）   
+  https://triple-underscore.github.io/URL-ja.html
+  * RFC 3986 - Uniform Resource Identifier (URI): Generic Syntax  
+  https://tools.ietf.org/html/rfc3986
 * **【書籍】**
   * 『データサイエンスのための統計学入門 ――予測、分類、統計モデリング、統計的機械学習とRプログラミング』 Peter Bruce、Andrew Bruce 著、黒川 利明　訳、大橋 真也　技術監修、O'Reilly Japan, Inc.  
   https://www.oreilly.co.jp/books/9784873118284/
