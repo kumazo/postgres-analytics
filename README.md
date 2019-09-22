@@ -9,7 +9,7 @@
 ## ■ 改版履歴
 
 * 2019-09-22 0.2版（印刷書籍）  
-技術書典7 にて領布。
+技術書典7 にて領布。ご購入ありがとうございます！
 
 ## ■ 正誤情報
 
@@ -101,6 +101,8 @@ $$ language sql;
   http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html
   * あなたの使っている乱数、大丈夫？ 松本 眞 - 広島大学  
   http://www.math.sci.hiroshima-u.ac.jp/~m-mat/TEACH/ichimura-sho-koen.pdf
+  * random --- 擬似乱数を生成する — Python 3.7.4 ドキュメント  
+  https://docs.python.org/ja/3/library/random.html
   * Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート  
   https://blog.visvirial.com/articles/575
   * ボックス＝ミュラー法 - Wikipedia  
@@ -111,6 +113,8 @@ $$ language sql;
   https://ja.wikipedia.org/wiki/%E9%80%86%E9%96%A2%E6%95%B0%E6%B3%95
   * パレート分布 - Wikipedia  
   https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AC%E3%83%BC%E3%83%88%E5%88%86%E5%B8%83
+  * Pareto distribution - Wikipedia  
+  https://en.wikipedia.org/wiki/Pareto_distribution
   * Identity columns - Qiita  
   https://qiita.com/nuko_yokohama/items/7d0d5525bcefaa3332ce
   * PostgreSQL 9.5のTABLESAMPLE句 - Qiita  
