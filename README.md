@@ -45,7 +45,7 @@ $$ language sql;
 ```
 
 * **p44**  
-plpytho3u のインストール説明の箇所でPostgreSQLの公式イメージが「ubuntu」ペースとありますが、正しくは「**Debian**」ベースです。postgre:11はdebian:stretch-slim から作成されています。
+plpytho3u のインストール説明の箇所で[PostgreSQLの公式イメージ](https://hub.docker.com/_/postgres)が「ubuntu」ペースとありますが、正しくは「**Debian**」ベースです。[postgre:11](https://github.com/docker-library/postgres/blob/9d8e2448436b2af1ea715822c2d209d493760007/11/Dockerfile)はdebian:stretch-slim から作成されています。
 
 ## ■ ソースコード
 
