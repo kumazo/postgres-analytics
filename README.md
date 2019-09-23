@@ -47,8 +47,12 @@ $$ language sql;
 * **p44**  
 plpytho3u のインストール説明の箇所で[PostgreSQLの公式イメージ](https://hub.docker.com/_/postgres)が「ubuntu」ペースとありますが、正しくは「**Debian**」ベースです。[postgre:11](https://github.com/docker-library/postgres/blob/9d8e2448436b2af1ea715822c2d209d493760007/11/Dockerfile)はdebian:stretch-slim から作成されています。
 
-* **p64** タイプミス  
-4行目あたり、誤「OVERIING USER VALUEを～」⇒生「OVERI**D**ING USER VALUEを～」
+* **p62** 4行目あたり  
+タイプミス　誤「OVERIING USER VALUEを～」⇒　正「OVERI**D**ING USER VALUEを～」
+
+* **p65** 1行目あたり
+抜け　誤「テキスト（約字）」⇒ 正「テキスト（約**6000**字）」
+
 
 ## ■ ソースコード
 
