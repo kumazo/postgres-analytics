@@ -17,10 +17,10 @@
 
 ### 【0.2版】
 
-* 全体  
+* **全体**  
 なぜか数式が正しく展開されていません。[AsciiMath](http://asciimath.org/)記法なので脳内変換してください。
 
-* p27-p28 　
+* **p27-p28**　
 「元号年」のサンプルコードにおいて、「令和元年」が「令和1年」と出力されてしまいます。
 同ソースコードのユーザ定義関数（jp_era）を以下のSQLに訂正します。
 
@@ -43,6 +43,9 @@ as $$
   select name || case when nen = 1 then '元' else nen::text end || '年' from y;
 $$ language sql;
 ```
+
+* **p44**  
+plpytho3u のインストール説明の箇所でPostgreSQLの公式イメージが「ubuntu」ペースとありますが、正しくは「**Debian**」ベースです。postgre:11はdebian:stretch-slim から作成されています。
 
 ## ■ ソースコード
 
