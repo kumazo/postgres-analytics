@@ -104,6 +104,8 @@ plpytho3u のインストール説明の箇所で[PostgreSQLの公式イメー�
   https://cpplover.blogspot.com/2013/10/blog-post_20.html
   * Linuxコマンドをfile_fdwの入力として使う。 - Qiita  
   https://qiita.com/nuko_yokohama/items/1044020576d3f5affb53
+  * file_fdw | Let's Postgres   
+  https://lets.postgresql.jp/documents/technical/contrib/file_fdw
   * 国民の祝日 - Wikipedia  
   https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5
   * 国民の祝日に関する法律 - Wikipedia  
