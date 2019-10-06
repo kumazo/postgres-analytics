@@ -47,15 +47,39 @@ $$ language sql;
 * **p44**  
 plpytho3u のインストール説明の箇所で[PostgreSQLの公式イメージ](https://hub.docker.com/_/postgres)が「ubuntu」ペースとありますが、正しくは「**Debian**」ベースです。[postgre:11](https://github.com/docker-library/postgres/blob/9d8e2448436b2af1ea715822c2d209d493760007/11/Dockerfile)はdebian:stretch-slim から作成されています。
 
+* **p61** SQLソース中  
+2行目あたり  
+誤  `        rpad('', least(character_maximum_length - 10, 100), fill) as val`  
+正  `        rpad('', least(character_maximum_length, 100), fill) as val`  
+32行目あたり  
+```sql
+
+                  dummy
+-----------------------------------------------------------------------------
+ {
+     "name": "hogeho",
+     "category": "hogehogehogehogehogehogehogeho",
+     "description": "hogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehoge"
+ }
+```
+正  
+```sql
+                                                           dummy                                                           
+---------------------------------------------------------------------------------------------------------------------------
+ {                                                                                                                        +
+     "name": "hogehogehogehoge",                                                                                          +
+     "category": "hogehogehogehogehogehogehogehogehogehoge",                                                              +
+     "description": "hogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehogehoge"+
+ }
+```
+
 * **p62** 4行目あたり  
 タイプミス　誤「OVERIING USER VALUEを～」⇒　正「OVERI**D**ING USER VALUEを～」
 
-* **p64** SQLソース中
-
+* **p64** SQLソース中  
 21行目あたり  
 誤 `      over(rows between 2 preceading and 1 preceding) as pre,`  
 正 `      over(rows between 2 preceding and 1 preceding) as pre,`  
-
 下から１３行目あたり  
 誤 `      markov as mk inner join dict as d on mk.next = d.pre`  
 正 `      markov as mk inner join dict as d on mk.next = ng.pre`  
