@@ -50,6 +50,14 @@ plpytho3u のインストール説明の箇所で[PostgreSQLの公式イメー�
 * **p62** 4行目あたり  
 タイプミス　誤「OVERIING USER VALUEを～」⇒　正「OVERI**D**ING USER VALUEを～」
 
+* **p64** SQLソース中
+2行目あたり
+誤 `      over(rows between 2 preceading and 1 preceding) as pre,`
+正 `      over(rows between 2 preceding and 1 preceding) as pre,`
+下から１３行目あたり
+誤 `      markov as mk inner join dict as d on mk.next = d.pre`
+正 `      markov as mk inner join dict as d on mk.next = ng.pre`
+
 * **p65** 1行目あたり  
 抜け　誤「テキスト（約字）」⇒ 正「テキスト（約**6000**字）」
 * **p95** 下から７行目あたり  
