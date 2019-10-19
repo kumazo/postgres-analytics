@@ -52,6 +52,7 @@ plpytho3u のインストール説明の箇所で[PostgreSQLの公式イメー�
 誤  `        rpad('', least(character_maximum_length - 10, 100), fill) as val`  
 正  `        rpad('', least(character_maximum_length, 100), fill) as val`  
 32行目あたり  
+
 誤
 ```sql
 
@@ -94,6 +95,9 @@ plpytho3u のインストール説明の箇所で[PostgreSQLの公式イメー�
 ## ■ ソースコード
 
  **《準備中》**
+ 
+* [1章 生成](https://github.com/kumazo/postgres-analytics/tree/master/sql/chapter01)
+* 2章 抽出
 
 ## ■ 参考文献
 
