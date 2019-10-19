@@ -11,9 +11,17 @@
 * 2019-09-22 0.2版（印刷書籍）  
 技術書典7 にて領布。ご購入ありがとうございます！
 
+## ■ ソースコード
+
+ **《準備中》**
+ 
+* [1章 生成](https://github.com/kumazo/postgres-analytics/tree/master/sql/chapter01)
+* 2章 抽出
+
 ## ■ 正誤情報
 
-間違いや誤植のご指摘は kumazolabo@gmail.com までお知らせください。
+レビュー不足で間違いや誤植が多く、申し訳ありません。
+間違いや誤植のご指摘があれば kumazolabo@gmail.com までお知らせください。
 
 ### 【0.2版】
 
@@ -92,12 +100,6 @@ plpytho3u のインストール説明の箇所で[PostgreSQLの公式イメー�
 編集ミス　誤「NEologdは辞書を最新語で更新できるもで、辞書を ～ 新単語にも対応できる。」⇒
 正 「NEologd は複合語レベルの単語を形態素として登録した辞書で、Mecabの辞書をNEologdに差し替えると、意味の通る適切な単語が抽出されるほか、流行語など最新の単語も抽出されるようになる。」
 
-## ■ ソースコード
-
- **《準備中》**
- 
-* [1章 生成](https://github.com/kumazo/postgres-analytics/tree/master/sql/chapter01)
-* 2章 抽出
 
 ## ■ 参考文献
 
