@@ -13,10 +13,10 @@
 
 ## ■ ソースコード
 
- **《準備中》**
+ **《準備中です》**
  
 * [1章 生成](https://github.com/kumazo/postgres-analytics/tree/master/sql/chapter01)
-* 2章 抽出
+* [2章 抽出](https://github.com/kumazo/postgres-analytics/tree/master/sql/chapter02)
 
 ## ■ 正誤情報
 
@@ -26,7 +26,7 @@
 ### 【0.2版】
 
 * **全体**  
-なぜか数式が正しく展開されていません。[AsciiMath](http://asciimath.org/)記法なので脳内変換してください。
+なぜか数式が正しく展開されていませんでした。[AsciiMath](http://asciimath.org/)記法なので脳内変換してください。
 
 * **p27-p28**  
 「元号年」のサンプルコードにおいて、「令和元年」が「令和1年」と出力されてしまいます。
